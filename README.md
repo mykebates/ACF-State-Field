@@ -3,6 +3,11 @@ Advanced Custom Fields - State Field add-on
 
 This add-on is meant to work with the [Advanced Custom Fields](http://www.advancedcustomfields.com/) WordPress plugin and adds a State field type that will provide a drop down list of US states.  If ACF is not installed this plugin will not do anything.
 
+Compatibility
+-------------
+
+This ACF field type is compatible with:
+* ACF 4
 
 Installation
 ------------
