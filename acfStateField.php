@@ -36,7 +36,16 @@ function register_fields_state() {
 
 add_action('acf/register_fields', 'register_fields_state');	
 
-
+/**
+ * I was thinking of adding a check for 'has_action' but following Elliot's example
+ * here I didn't see a need for it
+ * https://github.com/elliotcondon/acf-field-type-template/blob/master/acf-FIELD_NAME.php
+ * @donaldG
+ */
+function include_field_types_state() {  
+  include_once('acfStateField-v5.php');
+}
+add_action('acf/include_field_types', 'include_field_types_state'); 
 
 	
 ?>
